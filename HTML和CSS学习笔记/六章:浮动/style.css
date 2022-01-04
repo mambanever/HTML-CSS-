@@ -1,0 +1,184 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #f3f5f7;
+}
+.w {
+  width: 1200px;
+  margin: auto;
+}
+.header {
+  height: 42px;
+  /* 此处会和重叠.w 中的margin */
+  margin: 30px auto;
+  /* background-color: pink; */
+}
+.logo {
+  float: left;
+  width: 198px;
+  height: 42px;
+  /* background-color: purple; */
+}
+.nav {
+  float: left;
+  margin-left: 60px;
+}
+.nav ul li {
+  float: left;
+  margin: 0 15px;
+}
+.nav ul li a {
+  display: block;
+  height: 42px;
+  padding: 0 10px;
+  line-height: 42px;
+  color: #050505;
+}
+.nav ul li a:hover {
+  border-bottom: 2px solid #00a4ff;
+  color: #00a4ff;
+}
+
+.search {
+  float: left;
+  width: 412px;
+  height: 42px;
+  background-color: #00a4ff;
+  margin-left: 80px;
+}
+.search input {
+  float: left;
+  width: 345px;
+  height: 40px;
+  border: 1px solid #00a4ff;
+  border-right: 0;
+  padding-left: 15px;
+  color: #bfbfbf;
+  font-size: 14px;
+}
+.search button {
+  float: left;
+  width: 50px;
+  height: 42px;
+  background-image: url(fa-search.png);
+  border: 0;
+}
+.user {
+  float: right;
+  height: 42px;
+  line-height: 42px;
+  font-size: 14px;
+  color: #666;
+  margin-right: 30px;
+}
+.ban {
+  height: 422px;
+  background-color: #1c036c;
+}
+.ban .w {
+  width: 1203px;
+  height: 422px;
+  /* background-color: purple; */
+  background-image: url(banner2.png);
+}
+.subnav {
+  float: left;
+  width: 192px;
+  height: 422px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.subnav ul li {
+  margin: 0 20px;
+  margin-top: 27px;
+}
+.subnav ul li a {
+  font-size: 14px;
+  color: #fff;
+}
+.subnav ul li a span {
+  color: #fff;
+  float: right;
+}
+.course {
+  float: right;
+  margin-top: 51px;
+  width: 229px;
+  height: 301px;
+  background-color: pink;
+}
+.course ul li h2 {
+  text-align: center;
+  height: 48px;
+  line-height: 48px;
+  color: #fff;
+  font-style: 18px;
+  background-color: #9bceea;
+}
+.course ul li .bd {
+  height: 253px;
+  background-color: #fff;
+}
+.bd {
+  width: 229px;
+}
+.bd ul li {
+  padding: 15px 0;
+  margin: 0 18px;
+  border-bottom: solid 1px #a5a5a5;
+}
+
+.bd ul li h4 {
+  font-size: 14px;
+  color: #4e4e4e;
+}
+.bd ul li p {
+  font-size: 12px;
+  color: #a5a5a5;
+}
+.bd .all {
+  display: block;
+  margin: 0 18px;
+  margin-top: 3px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  font-weight: 700;
+  color: #00a4ff;
+  border: #00a4ff solid 1px;
+}
+.goods {
+  height: 61px;
+  width: 1203px;
+  margin: 10px auto;
+  background-color: #fff;
+  box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.1);
+}
+.goods h4 {
+  float: left;
+  margin: 0 34px;
+  line-height: 61px;
+  color: #00a4ff;
+}
+.goods ul li {
+  float: left;
+  line-height: 61px;
+  color: #000;
+}
+.goods ul li a {
+  padding: 0 30px;
+  font-size: 16px;
+  border-left: solid 1px #ccc;
+}
+.goods .mod {
+  float: right;
+  line-height: 61px;
+  margin-right: 145px;
+}
